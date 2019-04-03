@@ -20,21 +20,21 @@ android {
     }
 
     productFlavors{
-        app1 {
-            applicationId "com.example.one"
-            manifestPlaceholders = [app_name: "app_one"]
+        dev {
+            applicationId "com.example.dev"
+            manifestPlaceholders = [app_name: "app_dev"]
         }
-        app2 {
-            applicationId "com.example.two"
-            manifestPlaceholders = [app_name: "app_two"]
+        uat {
+            applicationId "com.example.uat"
+            manifestPlaceholders = [app_name: "app_uat"]
         }
-        app3 {
-            applicationId "com.example.three"
-            manifestPlaceholders = [app_name: "app_three"]
+        develop {
+            applicationId "com.example.develop"
+            manifestPlaceholders = [app_name: "app_develop"]
         }
-        app4 {
-            applicationId "com.example.four"
-            manifestPlaceholders = [app_name: "app_four"]
+        online {
+            applicationId "com.example.online"
+            manifestPlaceholders = [app_name: "app_online"]
         }
     }
 
