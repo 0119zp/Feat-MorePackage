@@ -25,7 +25,7 @@
 #### 步骤二、build --> build .. APKs
 可以选中我们需要打的包（或者签名包）
 
-#### 步骤三、应用名称设置：需要在menifest中设置 android:label 即可
+#### 步骤三、应用名称设置，用于区分不同包名的apk：需要在menifest中设置 android:label 即可
 ~~~
     <application
         android:allowBackup="true"
